@@ -98,7 +98,7 @@ namespace System.Net {
                 new HeaderInfo(HttpKnownHeaderNames.LastModified,       false,  false,  false,  SingleParser),
                 new HeaderInfo(HttpKnownHeaderNames.MaxForwards,        false,  false,  false,  SingleParser),
                 new HeaderInfo(HttpKnownHeaderNames.Pragma,             false,  false,  true,   MultiParser),
-                new HeaderInfo(HttpKnownHeaderNames.ProxyAuthenticate,  false,  false,  true,   MultiParser),
+                new HeaderInfo(HttpKnownHeaderNames.ProxyAuthenticate,  false,  false,  true,   SingleParser),
                 new HeaderInfo(HttpKnownHeaderNames.ProxyAuthorization, false,  false,  true,   MultiParser),
                 new HeaderInfo(HttpKnownHeaderNames.ProxyConnection,    true,   false,  true,   MultiParser),
                 new HeaderInfo(HttpKnownHeaderNames.Range,              true,   false,  true,   MultiParser),
